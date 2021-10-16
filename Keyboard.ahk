@@ -14,7 +14,7 @@ SetScrollLockState, AlwaysOff
 ;Use CapsLock for layer activation, Alt + CapsLock for normal CapsLock
 !CapsLock::SetCapsLockState, % GetKeyState("CapsLock", "T") ? "AlwaysOff" : "On"
 
-k;Right hand
+;Right hand
 ;Cursor
 CapsLock & i::Send {Blind}{Up}
 CapsLock & k::Send {Blind}{Down}
@@ -51,8 +51,8 @@ CapsLock & s::LWin
 CapsLock & a::LAlt
 CapsLock & g::Send {Browser_Back}
 ;upper row
-CapsLock & q::Send !+{Tab}
-CapsLock & w::Send !{Tab}
+CapsLock & q::AltTabMenuDismiss
+CapsLock & w::AltTabAndMenu
 CapsLock & e::Send ^#{Left}
 CapsLock & r::Send ^#{Right}
 CapsLock & t::Send {Browser_Search}
