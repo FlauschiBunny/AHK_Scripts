@@ -58,17 +58,17 @@ CapsLock & r::Send ^#{Right}
 CapsLock & t::Send {Browser_Search}
 
 ;Function row
-CapsLock & 1::Send {F1}
-CapsLock & 2::Send {F2}
-CapsLock & 3::Send {F3}
-CapsLock & 4::Send {F4}
-CapsLock & 5::Send {F5}
-CapsLock & 6::Send {F6}
-CapsLock & 7::Send {F7}
-CapsLock & 8::Send {F8}
-CapsLock & 9::Send {F9}
-CapsLock & 0::Send {F10}
-CapsLock & -::Send {F11}
-CapsLock & =::Send {F12}
-CapsLock & Esc::Send {SC029}
+CapsLock & 1::Send {Blind}{F1}
+CapsLock & 2::Send {Blind}{F2}
+CapsLock & 3::Send {Blind}{F3}
+CapsLock & 4::Send {Blind}{F4}
+CapsLock & 5::Send {Blind}{F5}
+CapsLock & 6::Send {Blind}{F6}
+CapsLock & 7::Send {Blind}{F7}
+CapsLock & 8::Send {Blind}{F8}
+CapsLock & 9::Send {Blind}{F9}
+CapsLock & 0::Send {Blind}{F10}
+CapsLock & -::Send {Blind}{F11}
+CapsLock & =::Send {Blind}{F12}
+CapsLock & Esc::Send {Blind}{SC029}
 ; TODO additional layers with right ctrl and second key (printscreen for Lenovo iso notebook or Menu for normal 60% Keyb)
