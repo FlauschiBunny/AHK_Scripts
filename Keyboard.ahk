@@ -25,11 +25,11 @@ CapsLock & u::Send {Blind}{Home}
 CapsLock & o::Send {Blind}{End}
 CapsLock & n::Send {Blind}{Delete}
 CapsLock & p::Send {Blind}{Insert}
-CapsLock & y::Send {PgUp}
-CapsLock & h::Send {PgDn}
+CapsLock & y::Send {Blind}{PgUp}
+CapsLock & h::Send {Blind}{PgDn}
 ;Mouse wheel
-CapsLock & `;::Send {WheelUp}
-CapsLock & '::Send {WheelDown}
+CapsLock & `;::Send {Blind}{WheelUp}
+CapsLock & '::Send {Blind}{WheelDown}
 ;Volume
 CapsLock & [::Send {Volume_Up}
 CapsLock & ]::Send {Volume_Down}
