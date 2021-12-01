@@ -27,14 +27,18 @@ CapsLock & n::Send {Blind}{Delete}
 CapsLock & p::Send {Blind}{Insert}
 CapsLock & y::Send {Blind}{PgUp}
 CapsLock & h::Send {Blind}{PgDn}
-;Mouse wheel
-CapsLock & `;::Send {Blind}{WheelUp}
-CapsLock & '::Send {Blind}{WheelDown}
+CapsLock & `;::Send {Blind}{BackSpace}
+;Apps
+CapsLock & '::Send {Blind}{Launch_App2};Calculator
+CapsLock & /::Send {Blind}{Launch_Mail}
 ;Volume
 CapsLock & [::Send {Volume_Up}
 CapsLock & ]::Send {Volume_Down}
 CapsLock & \::Send {Volume_Mute}
-
+;Media
+CapsLock & m::Send {Media_Prev}
+CapsLock & m::Send {Media_Play_Pause}
+CapsLock & m::Send {Media_Next}
 
 ;left hand
 ;lower row
@@ -51,7 +55,7 @@ CapsLock & s::LWin
 CapsLock & a::LAlt
 CapsLock & g::Send {Browser_Back}
 ;upper row
-CapsLock & q::AltTabMenuDismiss
+CapsLock & q::Send #{e}
 CapsLock & w::AltTabAndMenu
 CapsLock & e::Send ^#{Left}
 CapsLock & r::Send ^#{Right}
