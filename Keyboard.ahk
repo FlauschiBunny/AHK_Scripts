@@ -37,12 +37,11 @@ CapsLock & ]::Send {Volume_Down}
 CapsLock & \::Send {Volume_Mute}
 ;Media
 CapsLock & m::Send {Media_Prev}
-CapsLock & m::Send {Media_Play_Pause}
-CapsLock & m::Send {Media_Next}
+CapsLock & ,::Send {Media_Play_Pause}
+CapsLock & .::Send {Media_Next}
 
 ;left hand
 ;lower row
-CapsLock & LShift::Send ^a
 CapsLock & z::Send ^z
 CapsLock & x::Send ^x
 CapsLock & c::Send ^c
