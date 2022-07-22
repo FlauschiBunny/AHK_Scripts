@@ -5,6 +5,8 @@ SendMode Input
 SetWorkingDir, %A_ScriptDir%
 ;Keyboard layers
 #Include, keyboard.ahk
+;SpaceCadet from https://github.com/Wegerich/SpaceCadetShift
+#Include, SpaceCadetShift.ahk
 ;Autocorrect for my usual typos
 #Include, autocorrect.ahk
 ;Standard answers for chat and mail

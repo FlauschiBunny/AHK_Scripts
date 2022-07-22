@@ -28,20 +28,21 @@ CapsLock & p::Send {Blind}{Insert}
 CapsLock & y::Send {Blind}{PgUp}
 CapsLock & h::Send {Blind}{PgDn}
 CapsLock & `;::Send {Blind}{BackSpace}
-;Apps
-CapsLock & '::Send {Blind}{Launch_App2};Calculator
-CapsLock & /::Send {Blind}{Launch_Mail}
-;Volume
+;Gimmicks
+CapsLock & '::Run, Launch_App2 ; calculator
+CapsLock & BackSpace::Send #+s ;Screenshot
+;Media
 CapsLock & [::Send {Volume_Up}
 CapsLock & ]::Send {Volume_Down}
 CapsLock & \::Send {Volume_Mute}
-;Media
 CapsLock & m::Send {Media_Prev}
 CapsLock & ,::Send {Media_Play_Pause}
-CapsLock & .::Send {Media_Next}
+CapsLock & .::Send {Media_Prev}
+
 
 ;left hand
 ;lower row
+CapsLock & LShift::Send ^a
 CapsLock & z::Send ^z
 CapsLock & x::Send ^x
 CapsLock & c::Send ^c
@@ -54,7 +55,7 @@ CapsLock & s::LWin
 CapsLock & a::LAlt
 CapsLock & g::Send {Browser_Back}
 ;upper row
-CapsLock & q::Send #{e}
+CapsLock & q::AltTabMenuDismiss
 CapsLock & w::AltTabAndMenu
 CapsLock & e::Send ^#{Left}
 CapsLock & r::Send ^#{Right}
@@ -74,4 +75,6 @@ CapsLock & 0::Send {Blind}{F10}
 CapsLock & -::Send {Blind}{F11}
 CapsLock & =::Send {Blind}{F12}
 CapsLock & Esc::Send {Blind}{SC029}
+
+
 ; TODO additional layers with right ctrl and second key (printscreen for Lenovo iso notebook or Menu for normal 60% Keyb)
