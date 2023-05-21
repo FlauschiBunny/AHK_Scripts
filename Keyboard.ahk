@@ -23,10 +23,10 @@ CapsLock & l::Send {Blind}{Right}
 ;Navigation
 CapsLock & u::Send {Blind}{Home}
 CapsLock & o::Send {Blind}{End}
-CapsLock & n::Send {Blind}{Delete}
+CapsLock & h::Send {Blind}{Delete}
 CapsLock & p::Send {Blind}{Insert}
 CapsLock & y::Send {Blind}{PgUp}
-CapsLock & h::Send {Blind}{PgDn}
+CapsLock & n::Send {Blind}{PgDn}
 CapsLock & `;::Send {Blind}{BackSpace}
 ;Gimmicks
 CapsLock & '::Run, Launch_App2 ; calculator
@@ -53,7 +53,7 @@ CapsLock & f::LShift
 CapsLock & d::LCtrl
 CapsLock & s::LWin
 CapsLock & a::LAlt
-CapsLock & g::Send {Browser_Back}
+CapsLock & g::Send #x
 ;upper row
 CapsLock & q::AltTabMenuDismiss
 CapsLock & w::AltTabAndMenu
